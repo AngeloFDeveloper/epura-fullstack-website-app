@@ -48,6 +48,9 @@ with the rest of the private codebase.
 | [`use-install-banner.ts`](snippets/use-install-banner.ts) | Centralizes install-banner visibility state so a fixed banner and floating action buttons stay in sync instead of duplicating state and drifting apart. |
 | [`install-app-banner.tsx`](snippets/install-app-banner.tsx) + [`ios-install-instructions.tsx`](snippets/ios-install-instructions.tsx) | The banner component and its iOS instructions modal — see bug #2 below for the fix baked into this file. |
 | [`coming-soon-gate.ts`](snippets/coming-soon-gate.ts) | Middleware gate for pre-launch client review — see bug #1 below, this file *is* the fix. |
+| [`sw.js`](snippets/sw.js) | The service worker itself — `fetch` listener, push notification handling, and the `skipWaiting`/`clients.claim` pair that forces a stale cached worker to update. |
+| [`pwa-manifest.json`](snippets/pwa-manifest.json) | The web app manifest driving installability — icons, `start_url`, `display: standalone`. |
+| [`database-schema.sql`](snippets/database-schema.sql) | Core Postgres schema with Row Level Security — a student's queries can only ever return their own rows, enforced by the database, not application code. |
 | [`scroll-snap-carousel.css`](snippets/scroll-snap-carousel.css) | Mobile card carousel built with plain CSS `scroll-snap`, zero JavaScript, zero library. |
 
 ## Two production bugs I hit and fixed
