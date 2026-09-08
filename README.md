@@ -110,4 +110,4 @@ function handleInstall() {
 
 ---
 
-Built by [Ângelo Fernandes](https://angelostudio.pt) — [Ângelo Studio](https://angelostudio.pt).
+Built by [Ângelo Fernandes](https://www.linkedin.com/in/angeloxfernandes) — [Ângelo Studio](https://angelostudio.pt).
