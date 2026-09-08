@@ -1,5 +1,11 @@
 # Épura — Fullstack Website + App
 
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white)
+
 A fullstack platform I built for a tutoring business: public marketing site,
 student portal, and teacher backoffice, shipped as one Next.js + Supabase
 codebase that installs as a native-feeling app on iOS and Android — no App
