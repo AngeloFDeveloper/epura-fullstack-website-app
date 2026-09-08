@@ -1,0 +1,30 @@
+/* Mobile carousel built with plain CSS scroll-snap — no JS carousel library,
+   no bundle size cost. `snap-mandatory` locks each card to the center as the
+   user drags; each card is sized to 85% of the viewport width so the next
+   card peeks in from the edge as a visual affordance to keep scrolling. The
+   negative-margin + matching-padding trick lets the scroll area bleed to the
+   screen edges without breaking the rest of the section's padding. */
+
+.carousel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+@media (max-width: 640px) {
+  .carousel {
+    display: flex;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-inline: -20px;
+    padding-inline: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .carousel > * {
+    width: 85%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+  }
+}
