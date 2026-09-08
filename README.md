@@ -1,4 +1,7 @@
-# Épura — Fullstack Website + App
+<div align="center">
+
+# Épura
+### Fullstack Website + App
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
@@ -6,13 +9,16 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white)
 
+<a href="https://epura-explicacoes.pt" target="_blank"><img src="docs/images/hero-landing.webp" alt="Épura — marketing site hero, explicações de geometria descritiva" width="820"></a>
+
+**[🌐 Live Site](https://epura-explicacoes.pt)** · **[📄 Full Case Study](https://angelofdeveloper.github.io/epura-fullstack-website-app/)**
+
+</div>
+
 A fullstack platform I built for a tutoring business: public marketing site,
 student portal, and teacher backoffice, shipped as one Next.js + Supabase
 codebase that installs as a native-feeling app on iOS and Android — no App
 Store involved.
-
-**Live site:** [epura-explicacoes.pt](https://epura-explicacoes.pt)
-**Full write-up (screenshots, complete narrative):** [angelofdeveloper.github.io/epura-fullstack-website-app](https://angelofdeveloper.github.io/epura-fullstack-website-app/)
 
 > The production codebase is a private client project, so it isn't in this
 > repo. What's here are working, self-contained pieces pulled straight out of
@@ -24,6 +30,21 @@ Store involved.
 `Next.js (App Router)` · `TypeScript` · `Supabase` (auth, Postgres, RLS) ·
 `Tailwind CSS` · `Resend` (transactional email) · `Web Push` · installable PWA
 (manifest + service worker, no build tooling beyond Next.js itself)
+
+## A look inside
+
+<table>
+<tr>
+<td width="33%"><img src="docs/images/teacher-dashboard.webp" alt="Teacher backoffice dashboard with calendar and upcoming lessons"></td>
+<td width="33%"><img src="docs/images/student-management.webp" alt="Teacher backoffice — managing lessons per student"></td>
+<td width="33%"><img src="docs/images/pwa-login.webp" alt="Installed PWA login screen on iPhone"></td>
+</tr>
+<tr>
+<td align="center"><sub>Teacher backoffice — dashboard</sub></td>
+<td align="center"><sub>Backoffice — lessons per student</sub></td>
+<td align="center"><sub>Installed PWA — login on iPhone</sub></td>
+</tr>
+</table>
 
 ## What was built
 
