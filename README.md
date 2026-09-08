@@ -6,7 +6,7 @@ codebase that installs as a native-feeling app on iOS and Android — no App
 Store involved.
 
 **Live site:** [epura-explicacoes.pt](https://epura-explicacoes.pt)
-**Full write-up (screenshots, complete narrative):** [claude.ai/code/artifact/ebcb1ced-89c8-4e9a-b311-919c881a4bd6](https://claude.ai/code/artifact/ebcb1ced-89c8-4e9a-b311-919c881a4bd6)
+**Full write-up (screenshots, complete narrative):** [angelofdeveloper.github.io/epura-fullstack-website-app](https://angelofdeveloper.github.io/epura-fullstack-website-app/)
 
 > The production codebase is a private client project, so it isn't in this
 > repo. What's here are working, self-contained pieces pulled straight out of
